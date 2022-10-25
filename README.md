@@ -28,6 +28,8 @@
   - <b>AWS Pricing Calculator:</b>  É uma ferramenta de planejamento baseada na web que você pode usar para criar estimativas para o AWS casos de uso. Você pode usá-lo para modelar suas soluções antes de criá-las, explore o AWS pontos de preço de serviço e revise os cálculos por trás de suas estimativas.
 
 ## Arquitetura
-
+  <img src="arquitetura.png" alt="Arquitetura dos serviços AWS" />
+  
 ## Proposta
+  <img src="/proposta.png" alt="Imagem dos serviços e valores na AWS Pricing Calculator" />
   
