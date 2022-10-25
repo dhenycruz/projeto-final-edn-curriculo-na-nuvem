@@ -31,5 +31,5 @@
   <img src="arquitetura.png" alt="Arquitetura dos serviços AWS" />
   
 ## Proposta
-  <img src="/proposta.png" alt="Imagem dos serviços e valores na AWS Pricing Calculator" />
+  <img src="/calculator.jpeg" alt="Imagem dos serviços e valores na AWS Pricing Calculator" />
   
