@@ -2,10 +2,10 @@
   Website simples feito com html, css e Javascript feito para colocar em funcionamento em uma arquitetura na nuvem Aws. Utilizando os seguintes serviços: Route 53, Certificate Manager, WAF, CloudFront e S3 standard.
 
 ## Integrantes:
-  - Gabriel Silva
-  - Dheniarley Cruz
-  - Jéssica Prandini
-  - Patrícia Oliveira
+  - [Gabriel Silva](https://www.linkedin.com/in/gessilva)
+  - [Dheniarley Cruz](https://www.linkedin.com/in/dheniarley/)
+  - [Jéssica Prandini](https://www.linkedin.com/in/jessicaprandini/)
+  - [Patrícia Oliveira](https://www.linkedin.com/in/patriciaoliveirasantos/)
  
  ## Objetivos:
   Desenvolvimento de um website (html, css, imagens) contendo os currículos do grupo e a implantação de um ou mais serviços na nuvem AWS, com rede de entrega de conteúdo, com baixa latência, com segurança, e armazenamento durável, para atender a demanda de 11 milhões de requisições¹ por mês.
@@ -32,4 +32,5 @@
   
 ## Proposta
   <img src="/calculator.jpeg" alt="Imagem dos serviços e valores na AWS Pricing Calculator" />
+  https://calculator.aws/#/estimate?id=81b885c242873f38dba66d6bb55970873c8efe80
   
