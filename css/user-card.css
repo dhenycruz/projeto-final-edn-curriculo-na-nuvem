@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.user-card {
+  width: 300px;
+  height: 450px;
+  box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  overflow: hidden;
+  background: #2c2b29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: box-shadow 0.2s ease-in;
+  animation: transition 2s;
+}
+
+.user-card:hover {
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.user-card .user-cover {
+  height: 150px;
+  width: 100%;
+  position: relative;
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4E16AQGvKnIHMvBxpw/profile-displaybackgroundimage-shrink_350_1400/0/1617300919081?e=1671667200&v=beta&t=UqKhtMFcdExyAjZMt4jXgdZQLXwmLXHdyYvXR4Rtrlo);
+  background-position: center;
+  background-size: cover;
+}
+
+.user-card .user-cover .user-avatar {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -35px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.user-card .user-details {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.user-card .user-details .user-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #9db858;
+}
+
+.user-card .user-details .user-email {
+    font-size: 14px;
+    color: #758e3b;
+    font-weight: 700;
+}
+.user-card .user-details .user-text {
+  margin-top: 5px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, .8);
+}
+.user-card .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    height: 45px;
+    width: 80%;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    background: #4c5a2a;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-card .button:visited {
+    color: white;
+}
+
+.user-card .button:hover {
+    background-color: #798f43;
+}
+
+/* Skeleton */
+
+/* Static Skeleton 
+
+.user-card.skeleton .user-cover {
+  background: #798f43;
+}
+
+.user-card.skeleton .user-cover .user-avatar {
+  display: none;
+}
+
+.user-card.skeleton .user-cover::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -35px;
+  border: 2px solid #fff;
+  z-index: 10;
+  background: #798f43;
+}
+
+/* Animated Skeletonszzzz
+
+.user-card.skeleton .hide-text {
+  background: #798f43;
+  color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.user-card.skeleton .hide-text::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  background: linear-gradient(to right, #c8d89d 25%, #798f43 50%, #c8d89d 100%);
+  animation-name: gradient-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  filter: blur(5px);
+}
+
+@keyframes gradient-animation {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
+*/
+
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
